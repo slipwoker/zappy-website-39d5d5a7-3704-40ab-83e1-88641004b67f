@@ -1,53 +1,43 @@
-# Urban Novus - אורבן נובוס — Generative Engine Optimization Map
-
-> A התחדשות עירונית business.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### Home
-https://urban-novus-39d5d5a7.zappy5.app
+https://example.com
 
 ### Process
-https://urban-novus-39d5d5a7.zappy5.app/process
+https://example.com/process
 
 ### Projects
-https://urban-novus-39d5d5a7.zappy5.app/projects
+https://example.com/projects
 
 ### Contact
-https://urban-novus-39d5d5a7.zappy5.app/contact
+https://example.com/contact
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://urban-novus-39d5d5a7.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://urban-novus-39d5d5a7.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://urban-novus-39d5d5a7.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Urban Novus - אורבן נובוס
-Urban Novus - אורבן נובוס is a business in the התחדשות עירונית industry.
-
-## Target Audience
-בעלי נכסים
-
-## Industry
-התחדשות עירונית
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://urban-novus-39d5d5a7.zappy5.app/sitemap.xml
-- **Robots.txt**: https://urban-novus-39d5d5a7.zappy5.app/robots.txt
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
