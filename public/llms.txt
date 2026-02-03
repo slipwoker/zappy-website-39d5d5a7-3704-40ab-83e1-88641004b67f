@@ -1,6 +1,4 @@
-# Urban Novus - אורבן נובוס — Generative Engine Optimization Map
-
-> A התחדשות עירונית business.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -36,15 +34,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About Urban Novus - אורבן נובוס
-Urban Novus - אורבן נובוס is a business in the התחדשות עירונית industry.
-
-## Target Audience
-בעלי נכסים
-
-## Industry
-התחדשות עירונית
-
+## About Business
 ---
 
 # Additional Resources
