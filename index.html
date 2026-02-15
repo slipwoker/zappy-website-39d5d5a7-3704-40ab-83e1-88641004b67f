@@ -321,6 +321,31 @@
       }
       @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
     </style>
+
+    <style id="mobile-lang-menu-deployed-css">
+    @media (max-width: 768px) {
+      .lang-switcher,
+      .nav-cta-container .lang-switcher,
+      .nav-container .lang-switcher,
+      .navbar .lang-switcher,
+      .navbar .nav-cta-container .lang-switcher,
+      .nav-icons-left .lang-switcher,
+      .nav-ecommerce-icons .lang-switcher { display: none !important; }
+      .mobile-lang-menu { width: 100%; border-top: 1px solid rgba(128,128,128,0.2); padding: 8px 0 0 0; margin-top: 8px; }
+      .mobile-lang-toggle { display: flex !important; align-items: center; justify-content: space-between; width: 100%; padding: 12px 16px; background: none; border: none; cursor: pointer; font-size: 15px; color: inherit; font-family: inherit; }
+      .mobile-lang-toggle::after { content: ''; display: inline-block; width: 8px; height: 8px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); transition: transform 0.3s ease; margin-left: 8px; }
+      .mobile-lang-toggle.expanded::after { transform: rotate(-135deg); }
+      .mobile-lang-options { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+      .mobile-lang-options.expanded { max-height: 300px; }
+      .mobile-lang-option { display: flex !important; align-items: center; gap: 10px; padding: 10px 24px; text-decoration: none; color: inherit; font-size: 14px; font-family: inherit; }
+      .mobile-lang-option:hover { background: rgba(128,128,128,0.1); }
+      .mobile-lang-option.active { font-weight: 600; opacity: 0.7; pointer-events: none; }
+      .mobile-lang-option img { width: 20px; height: 20px; border-radius: 50%; }
+    }
+    @media (min-width: 769px) {
+      .mobile-lang-menu { display: none !important; }
+    }
+    </style>
 </head>
 <body>
 
@@ -753,7 +778,52 @@
 
   
   <main>
-    <section class="home-hero-section" data-layout-spec="Home-hero" id="zappy-section-0">
+    
+
+<section id="layout-1771161102326" class="layout-section hero-section" data-zappy-component="true" style="width: 100vw; margin-left: calc(50% - 50vw); height: 100vh; min-height: 100vh; position: relative; display: flex; align-items: center; justify-content: center; direction: rtl; overflow: hidden; box-sizing: border-box;" data-component-id="hero-fullscreen-bg">
+  <style>
+    .hero-bg-container img.hero-background-image,
+    .hero-bg-container img[data-hero-background="true"] {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover !important;
+      object-position: center !important;
+      display: block !important;
+      max-width: none !important;
+      margin: 0 !important;
+      border-radius: 0 !important;
+    }
+    #layout-1771161102326 button,
+    #layout-1771161102326 a,
+    #layout-1771161102326 .btn,
+    #layout-1771161102326 [class*="btn"],
+    #layout-1771161102326 [data-element-type="button"],
+    #layout-1771161102326 h1,
+    #layout-1771161102326 h2,
+    #layout-1771161102326 h3,
+    #layout-1771161102326 h4,
+    #layout-1771161102326 p {
+      pointer-events: auto !important;
+      position: relative;
+    }
+  </style>
+  <div class="hero-bg-container" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
+    <img data-placeholder="hero-bg-1771161102326" data-context="Hero background image for כותרת שלך כאן" data-zappy-editable-image="true" data-element-type="image" data-hero-background="true" src="/assets/image-hero-bg-1771161102326-1771161151866-lqbm3m.webp?v=1771161153255" alt="Hero background" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 50% !important; cursor: pointer; display: block" class="layout-placeholder-image zappy-editable-image hero-background-image" data-element-id="img-1771161103584-aj27e67h4" data-resize-handler-attached="true" data-zappy-zoom="1">
+  </div>
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); z-index: 2; pointer-events: none;"></div>
+  <div class="container" style="position: relative; z-index: 3; max-width: 1200px; width: 100%; margin: 0 auto; padding: 80px 1.5rem; text-align: center; pointer-events: none; box-sizing: border-box;">
+    <h1 style="font-size: 56px; font-weight: 700; color: rgb(255, 255, 255); margin-bottom: 24px; font-family: &quot;Frank Ruhl Libre&quot;, &quot;David Libre&quot;, serif; text-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px; pointer-events: auto;">ליאור, תוסיף פה טקסט</h1>
+    <h3 style="font-size: 26px; font-weight: 400; color: rgb(255, 255, 255); opacity: 0.9; max-width: 700px; margin: 0px auto; font-family: &quot;Frank Ruhl Libre&quot;, &quot;David Libre&quot;, serif; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px; pointer-events: auto;">גם כאן</h3>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="home-hero-section" data-layout-spec="Home-hero" id="zappy-section-0">
   <div class="hero-container">
     <div class="hero-content">
       <div class="content-block">
@@ -821,7 +891,7 @@
       <div class="imagery-stack">
         <div class="image-tile">
           <h3 class="tile-label">לפני</h3>
-          <img data-placeholder="home-hero-before" data-context="Wide shot of an older residential building in an Israeli urban area before urban renewal, showing weathered facade, aging infrastructure, and dated architecture. Professional real estate photography style, clear daytime lighting, documentary quality." width="500" height="340" src="/assets/site-home-image-1-1770126468041-tbpot0.webp?v=1770126469537" alt="בניין מגורים לפני התחדשות עירונית" data-element-type="image" data-element-id="img-1770123835650-mvrw7wohd" class="zappy-editable-image" data-resize-handler-attached="true" data-zappy-zoom="1" style="object-position: 50% 50% !important; object-fit: contain; width: auto; height: auto; max-width: 600px; display: block; border-radius: 8px; margin: 20px;">
+          <img data-placeholder="home-hero-before" data-context="Wide shot of an older residential building in an Israeli urban area before urban renewal, showing weathered facade, aging infrastructure, and dated architecture. Professional real estate photography style, clear daytime lighting, documentary quality." width="500" height="340" src="/assets/site-home-image-1-1770126468041-tbpot0.webp?v=1770126469537" alt="בניין מגורים לפני התחדשות עירונית" data-element-type="image" data-element-id="img-1770123835650-mvrw7wohd" class="zappy-editable-image" data-zappy-zoom="1" style="object-position: 50% 50% !important; object-fit: contain; width: auto; height: auto; max-width: 600px; display: block; border-radius: 8px; margin: 20px;">
         </div>
         <div class="image-tile">
           <h3 class="tile-label">אחרי</h3><div class="zappy-inserted-element" id="zappy-element-1770126098779-6wlu8hjvo" data-element-id="zappy-element-1770126098779-6wlu8hjvo" data-element-type="image" style="max-width: 560px; margin: 20px 0px; text-align: center; justify-content: center;"><div data-zappy-zoom-wrapper="true" data-element-id="zappy-element-1770126098779-6wlu8hjvo" data-element-type="image" data-zappy-zoom-wrapper-width="475px" data-zappy-zoom-wrapper-height="323px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" style="position: relative !important; overflow: hidden !important; width: 475px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 323px !important; display: block !important;"><img src="/assets/image-element-1770126579716-x3ev0s.webp?v=1770126581121" alt="Image" style="width: 121.7% !important; height: 100% !important; border-radius: 8px; max-width: none !important; object-fit: cover; margin: 0px !important; position: absolute !important; object-position: 50% 50% !important; display: block !important; left: -10.8501% !important; top: 0% !important; max-height: none !important;" data-element-type="image" data-element-id="zappy-element-1770126098779-6wlu8hjvo" id="zappy-element-1770126098779-6wlu8hjvo" class="zappy-editable-image" data-original-position="static" data-zappy-zoom="1" data-zappy-original-width="475" data-zappy-original-height="323"></div></div>
@@ -830,13 +900,7 @@
       </div>
     </div>
   </div>
-</section>
-
-
-
-
-
-<section class="home-benefits-section" data-layout-spec="Home-benefits" id="zappy-section-1">
+</section><section class="home-benefits-section" data-layout-spec="Home-benefits" id="zappy-section-1">
   <div class="benefits-container">
     <div class="benefits-header">
       <h2>כשבוחרים ב- <font color="#008080">Urban Novus</font> מקבלים</h2>
@@ -1138,6 +1202,76 @@
           observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
         });
       }, 500);
+    })();
+    </script>
+
+    <script id="zappy-mobile-lang-menu-script">
+    (function() {
+      function initMobileLangMenu() {
+        if (window.innerWidth > 768) {
+          var existingMenu = document.querySelector('.mobile-lang-menu');
+          if (existingMenu) existingMenu.remove();
+          return;
+        }
+        if (document.querySelector('.mobile-lang-menu')) return;
+        var switcher = document.querySelector('.lang-switcher');
+        if (!switcher) return;
+        var dropdown = switcher.querySelector('.lang-switcher-dropdown');
+        if (!dropdown) return;
+        var options = dropdown.querySelectorAll('.lang-option');
+        if (options.length === 0) return;
+        var navMenu = document.getElementById('navMenu') || document.querySelector('.nav-menu') || document.querySelector('nav ul');
+        if (!navMenu) return;
+        var currentLang = document.documentElement.lang || 'en';
+        var langConfigs = {
+          he: {name:'עברית',flag:'https://api.iconify.design/circle-flags/il.svg'},
+          en: {name:'English',flag:'https://api.iconify.design/circle-flags/us.svg'},
+          ar: {name:'العربية',flag:'https://api.iconify.design/circle-flags/sa.svg'},
+          fr: {name:'Français',flag:'https://api.iconify.design/circle-flags/fr.svg'},
+          es: {name:'Español',flag:'https://api.iconify.design/circle-flags/es.svg'},
+          de: {name:'Deutsch',flag:'https://api.iconify.design/circle-flags/de.svg'},
+          ru: {name:'Русский',flag:'https://api.iconify.design/circle-flags/ru.svg'},
+          zh: {name:'中文',flag:'https://api.iconify.design/circle-flags/cn.svg'},
+          ja: {name:'日本語',flag:'https://api.iconify.design/circle-flags/jp.svg'},
+          pt: {name:'Português',flag:'https://api.iconify.design/circle-flags/br.svg'},
+          it: {name:'Italiano',flag:'https://api.iconify.design/circle-flags/it.svg'},
+          ko: {name:'한국어',flag:'https://api.iconify.design/circle-flags/kr.svg'}
+        };
+        var container = document.createElement('div');
+        container.className = 'mobile-lang-menu';
+        var currentConfig = langConfigs[currentLang] || {name:currentLang,flag:''};
+        var toggleBtn = document.createElement('button');
+        toggleBtn.className = 'mobile-lang-toggle';
+        toggleBtn.type = 'button';
+        var currentFlagHtml = currentConfig.flag ? '<img src="' + currentConfig.flag + '" width="20" height="20" alt="" style="border-radius:50%;margin-right:8px;margin-left:8px;">' : '';
+        toggleBtn.innerHTML = currentFlagHtml + currentConfig.name;
+        container.appendChild(toggleBtn);
+        var optionsDiv = document.createElement('div');
+        optionsDiv.className = 'mobile-lang-options';
+        var currentLink = document.createElement('a');
+        currentLink.className = 'mobile-lang-option active';
+        currentLink.href = '#';
+        currentLink.innerHTML = currentFlagHtml + currentConfig.name;
+        optionsDiv.appendChild(currentLink);
+        options.forEach(function(opt) {
+          var link = document.createElement('a');
+          link.className = 'mobile-lang-option';
+          link.href = opt.getAttribute('href');
+          link.innerHTML = opt.innerHTML;
+          optionsDiv.appendChild(link);
+        });
+        container.appendChild(optionsDiv);
+        navMenu.appendChild(container);
+        toggleBtn.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          toggleBtn.classList.toggle('expanded');
+          optionsDiv.classList.toggle('expanded');
+        });
+      }
+      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileLangMenu); }
+      else { initMobileLangMenu(); }
+      window.addEventListener('resize', function() { clearTimeout(window._mlrt); window._mlrt = setTimeout(initMobileLangMenu, 250); });
     })();
     </script>
 </body></html>
